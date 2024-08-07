@@ -1,6 +1,3 @@
-Berikut adalah dokumentasi lengkap untuk ditempatkan di README.md, menjelaskan logika fungsi tanpa menyertakan kode lengkapnya:
-
-````markdown
 # String Processor
 
 ## Deskripsi
@@ -49,7 +46,8 @@ let inputArray = ['Pendanaan', 'Terproteksi', 'Untuk', 'Dampak', 'Berarti']
 let output = processStrings(inputArray)
 console.log(output) // Output: "aenrktipBDPTUdmosu"
 ```
-````
+
+```
 
 ## Cara Menjalankan
 
@@ -63,3 +61,4 @@ console.log(output) // Output: "aenrktipBDPTUdmosu"
 
 - Fungsi ini case-sensitive, membedakan huruf besar dan kecil.
 - Karakter non-alfabet juga diproses dan diurutkan sesuai aturan yang sama.
+```
